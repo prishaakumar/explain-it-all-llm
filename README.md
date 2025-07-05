@@ -46,42 +46,7 @@ A Streamlit app that generates explanations for any topic at three levels:
    streamlit run app.py
    ```
 
-## 🚀 Deployment Options
 
-### Option 1: Streamlit Cloud (Recommended)
-
-1. **Fork this repository** to your GitHub account
-2. **Sign up** at [share.streamlit.io](https://share.streamlit.io)
-3. **Connect your GitHub account**
-4. **Deploy:**
-   - Click "New app"
-   - Select your forked repository
-   - Set the path to `app.py`
-   - Add your secrets in the Streamlit Cloud dashboard
-5. **Share your live demo URL!**
-
-### Option 2: Hugging Face Spaces
-
-1. **Create a new Space** on [huggingface.co/spaces](https://huggingface.co/spaces)
-2. **Choose Streamlit** as the SDK
-3. **Upload your files** or connect your GitHub repo
-4. **Add secrets** in the Space settings
-5. **Your app will be live** at `https://huggingface.co/spaces/your-username/explain-it-all-llm`
-
-### Option 3: Railway
-
-1. **Sign up** at [railway.app](https://railway.app)
-2. **Connect your GitHub repository**
-3. **Add environment variables** for your API keys
-4. **Deploy automatically** on every push
-
-### Option 4: Render
-
-1. **Sign up** at [render.com](https://render.com)
-2. **Create a new Web Service**
-3. **Connect your GitHub repository**
-4. **Add environment variables** for your API keys
-5. **Deploy with automatic updates**
 
 ## 🔧 Configuration
 
