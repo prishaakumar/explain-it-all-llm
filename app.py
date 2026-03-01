@@ -52,10 +52,10 @@ Each section should have at least 8-10 bullet points, and elaborate on each poin
 """
 
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL = "mistralai/mistral-7b-instruct"
+OPENROUTER_MODEL = "openrouter/free"
 
 # You can set this to your email or localhost for local dev
-HTTP_REFERER = "http://localhost"
+HTTP_REFERER = "https://explain-it-all-llm-avzkqjaehghsdqtntbss4z.streamlit.app"
 X_TITLE = "Explain-It-All-AI"
 
 # --- Google CSE Hybrid Search ---
@@ -108,7 +108,7 @@ def get_explanations(topic):
     payload = {
         "model": OPENROUTER_MODEL,
         "messages": messages,
-        "max_tokens": 2500,
+        "max_tokens": 1500,
         "temperature": 0.7
     }
     response = requests.post(OPENROUTER_API_URL, headers=headers, json=payload)
